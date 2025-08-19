@@ -1,10 +1,5 @@
 #include "main.h"
 
-
-// TODO: pre-C99 backwards compatibility
-//       layers_count == 1 handling
-
-
 // Performs a forward pass on the network
 void ForwardPass(size_t inputLayerSize, double *inputLayer, size_t layers_count, size_t *layer_lengths, double **weights, double **biases,
     double **deactivated_neurons, double **activated_neurons) {

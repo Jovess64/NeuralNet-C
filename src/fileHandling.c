@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
+#include <limits.h>
 #include <stdbool.h>
 #include "config_context.h" // contains `MAX_PATH`
 
